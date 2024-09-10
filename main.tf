@@ -3,7 +3,7 @@ region = "us-east-1"
 }
 
 resource "aws_s3_bucket" "mybucket" {
-        bucket = "statebackend55443ameen"
+        bucket = "statebackend55443ameen"   #bucket name to be changes everytime for unique name across aws
         tags = {
         Name = "MyS3Bucket"
         Environment = "Production"
