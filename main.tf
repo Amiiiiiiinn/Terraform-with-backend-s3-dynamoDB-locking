@@ -10,13 +10,13 @@ resource "aws_s3_bucket" "mybucket" {
   }
 }
 resource "aws_s3_bucket_versioning" "versioning_example" {
-  bucket = "statebackend55443amin"
+  bucket = "statebackend55443ameen"
         versioning_configuration {
         status = "Enabled"
   }
 }
 resource "aws_s3_bucket_server_side_encryption_configuration" "example" {
-  bucket = "statebackend55443amin"
+  bucket = "statebackend55443ameen"
 
   rule {
     apply_server_side_encryption_by_default {
