@@ -3,7 +3,7 @@ region = "us-east-1"
 }
 
 resource "aws_s3_bucket" "mybucket" {
-        name = "statebackend55443amin"
+        bucket = "statebackend55443ameen"
         tags = {
         Name = "MyS3Bucket"
         Environment = "Production"
